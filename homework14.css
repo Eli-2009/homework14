@@ -1,0 +1,243 @@
+*{
+    margin: o;
+    padding: 0;
+}
+h1{
+    margin-left: 150px;
+    margin-top: 50px;
+    font-size: 35px;
+    font-family: "Roboto Slab", serif;
+}
+.left1{
+    width: 400px;
+    margin-left: 150px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 30px;
+}
+.left2{
+    width: 430px;
+    margin-left: 150px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.main{
+    display: flex;
+}
+.right1{
+    margin-left: 130px;
+    margin-bottom: 20px;
+}
+.img1{
+    width: 220px;
+}
+.img2{
+    z-index: -1;
+    position: absolute;
+    margin-left: -255px;
+    margin-top: 200px;
+    width: 280px;
+}
+
+.img3{
+    margin-left: 150px;
+    margin-top: 30px;
+    width: 180px;
+}
+.img4{
+    position: absolute;
+    z-index: -2;
+    margin-left: 165px;
+    margin-top: -18px;
+    width: 160px;
+}
+
+.footer-main{
+    display: flex;
+    margin-top: 85px;
+    margin-left: 70px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.end{
+    display: flex;
+}
+.span1{
+    font-weight: bold;
+}
+.span2{
+    width: 125px;
+}
+.span3{
+    font-weight: bold;
+}
+.span4{
+    width: 125px;
+}
+.span5{
+    font-weight: bold;
+}
+.span6{
+    width: 100px;
+}
+.p2{
+    margin-left: 40px;
+}
+.p3{
+    margin-left: 40px;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    h1{
+        margin-left: 100px;
+    }
+    .left1{
+        margin-left: 100px;
+    }
+    .left2{
+        margin-left: 100px;
+    }
+    .img3{
+        margin-left: 100px;
+    }
+    .img4{
+        margin-left: 115px;
+    }
+}
+
+
+
+@media screen and (min-width: 870px) and (max-width: 991px) {
+    h1{
+        margin-left: 50px;
+    }
+    .left1{
+        margin-left: 50px;
+    }
+    .left2{
+        margin-left: 50px;
+    }
+    .img3{
+        margin-left: 100px;
+        display: none;
+    }
+    .img4{
+        margin-left: 115px;
+        display: none;
+    }
+    .p1{
+        margin-left: -15px;
+    }
+    .right1{
+        margin-left: 90px;
+    }
+}
+
+
+@media screen and (min-width: 765px) and (max-width: 870px) {
+    h1{
+        margin-left: 30px;
+    }
+    .left1{
+        margin-left: 30px;
+    }
+    .left2{
+        margin-left: 30px;
+    }
+    .img3{
+        margin-left: 100px;
+        display: none;
+    }
+    .img4{
+        margin-left: 115px;
+        display: none;
+    }
+    .right1{
+        margin-left: 50px;
+    }
+    .p1{
+        margin-left: -35px;
+    }
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 765px) {
+    h1{
+        margin-left: 30px;
+    }
+    .left1{
+        margin-left: 30px;
+    }
+    .left2{
+        margin-left: 30px;
+    }
+    .img1{
+        width: 190px;
+        margin-left: -100px;
+    }
+    .img2{
+        width: 250px;
+        margin-left: -280px;
+        margin-top: 180px;
+    }
+    .img3{
+        margin-left: 100px;
+        display: none;
+    }
+    .img4{
+        margin-left: 115px;
+        display: none;
+    }
+    .right1{
+        margin-right: 50px;
+    }
+    .p1{
+        margin-left: -35px;
+    }
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    .main{
+        display: block;
+    }
+    h1{
+        margin-left: 60px;
+    }
+    .left1{
+        margin-left: 60px;
+    }
+    .left2{
+        margin-left: 60px;
+        width: 400px;
+    }
+    .img1{
+        width: 190px;
+        margin-top: 20px;
+        position: relative;
+    }
+    .img2{
+        display: none;
+    }
+    .img3{
+        margin-left: 100px;
+        display: none;
+    }
+    .img4{
+        margin-left: 115px;
+        margin-top: -40px;
+        width: 220px;
+    }
+    .p1{
+        margin-left: -8px;
+    }
+    .p2{
+        /* width: 260px; */
+    }
+    .p3{
+        position: absolute;
+        margin-left: -10px;
+        margin-top: 85px;
+
+    }
+    .right1{
+        width: 110px;
+    }
+}
